@@ -1,0 +1,20 @@
+import React from 'react';
+import './Card.css'
+
+function Card({ src, tittle, description, price}) {
+    return (
+        <div className= 'card'>
+            <img src={src} alt="" />
+            <div className="card__info">
+            
+                <div className='shrink'>
+                <h2> {tittle} </h2>
+                <h4> {description} </h4>
+                <h3> {price}</h3>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Card
