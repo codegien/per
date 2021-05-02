@@ -6,7 +6,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import {Avatar} from "@material-ui/core";
 // import { Link } from "react-router-dom";
 import Logo from './logo.jpg';
-import SearchResult from './SearchResult';
+// import SearchResult from './SearchResult';
 
 
 function Header() {

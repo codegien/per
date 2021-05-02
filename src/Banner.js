@@ -3,7 +3,7 @@ import './Banner.css';
 import Button from '@material-ui/core/Button';
 import Search from './Search';
 // import { Link } from "react-router-dom";
-import { Route } from 'react-router-dom';
+// import { Route } from 'react-router-dom';
 // import { Button } from "@material-iu/core";
 
 function Banner() {

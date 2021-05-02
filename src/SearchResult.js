@@ -1,8 +1,8 @@
 import React from 'react';
 import './SearchResult.css';
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
-import StarIcon from '@material-ui/icons/Star';
-import GradeIcon from '@material-ui/icons/Grade';
+// import StarIcon from '@material-ui/icons/Star';
+// import GradeIcon from '@material-ui/icons/Grade';
 
 
 function SearchResult({
@@ -28,7 +28,7 @@ function SearchResult({
                 
                 <div className='searchResult__infoBottom'>
                     <div className='searchResult__star'>
-                        <StarIcon className="searchResult__stars" />
+                        {/* <StarIcon className="searchResult__stars" /> */}
                         <p><strong>{star}</strong></p>
                     </div>
 
