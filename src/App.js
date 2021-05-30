@@ -5,7 +5,7 @@ import Footer from './Footer';
 import SearchPage from './SearchPage';
 
 import { Route, Switch } from 'react-router'
-import {BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom';
 
 
 function App() {
@@ -24,3 +24,4 @@ function App() {
 }
 
 export default App;
+ 
