@@ -7,6 +7,7 @@ import {Avatar} from "@material-ui/core";
 // import { Link } from "react-router-dom";
 import Logo from './logo.jpg';
 // import SearchResult from './SearchResult';
+import { Link } from 'react-router-dom'
 
 
 function Header() {
@@ -24,6 +25,7 @@ function Header() {
                 </div>
 
                 <div className='header__right'>
+                    <Link to='/search'>Search</Link>
                         <p> Book a Space</p>
                         <LanguageIcon />
                         <ExpandMoreIcon />
